@@ -29,6 +29,7 @@ p {
     font-weight: 300;
     font-size: 24px;
     line-height: 36px;
+    margin: 0;
 }
 
 </style>

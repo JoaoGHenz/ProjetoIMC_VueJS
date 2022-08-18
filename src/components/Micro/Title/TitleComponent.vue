@@ -33,10 +33,21 @@ export default {
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-h1, h2 {
+h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 40px;
     line-height: 60px;
+    margin: 0;
 }
+
+h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0;
+}
+
 </style>
