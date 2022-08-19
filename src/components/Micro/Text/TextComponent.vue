@@ -1,6 +1,6 @@
 <template>
 
-    <p>
+    <p :class="textoClass">
         {{ text }}
     </p>
 
@@ -12,8 +12,11 @@ export default {
     name: "TextComponent",
     props: {
         text: {
-            String,
+            type: String,
             default: "Text Component"
+        },
+        textoClass: {
+            type: String,
         }
     }
 }
@@ -30,6 +33,14 @@ p {
     font-size: 24px;
     line-height: 36px;
     margin: 0;
+}
+
+.resTexto {
+    color: #F7B718;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 60px;
 }
 
 </style>
