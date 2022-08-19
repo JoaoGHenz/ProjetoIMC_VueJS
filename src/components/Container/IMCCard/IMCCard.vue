@@ -89,6 +89,11 @@ export default {
     justify-content: space-around;
     align-items: center;
     flex-flow: column wrap;
+
+    @media (max-width: 768px) {
+        width: 100vw;
+        height: 100vh;
+    }
 }
 
 .slide {
